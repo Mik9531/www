@@ -1,0 +1,20 @@
+{# src/AppBundle/Resources/views/Usuarios/registro.html.twig #}
+
+{% extends 'layout/app.html.twig' %}
+{% block body %}
+		<h2>Registro de usuario</h2>
+		
+		<hr>
+		<br />
+		{{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+				{{ form_row(form.username) }}
+				{{ form_row(form.email) }}
+				{{ form_row(form.plainPassword.first) }}
+				{{ form_row(form.plainPassword.second) }}
+				{{ form_row(form.guardar) }}
+				
+				{{ form_widget(form) }}
+				{{ form_errors(form) }}
+			{{ form_end(form) }}
+			
+{% endblock %}

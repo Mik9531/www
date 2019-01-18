@@ -1,0 +1,10 @@
+{# src/AppBundle/Resources/views/Usuarios/usuarioRegistrado.html.twig #}
+
+{% extends 'layout/app.html.twig' %}
+{% block body %}
+		<a href="{{ path('login')}}">Login</a>
+		<h2> Usuario registrado con exito </h2>
+		<p>{{user.username}}</p>
+		<p>{{user.email}}</p>
+		
+{% endblock %}

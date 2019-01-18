@@ -1,0 +1,17 @@
+{# src/AppBundle/Resources/views/Articulos/mostrarTodos.html.twig #}
+
+{% extends 'layout/app.html.twig' %}
+{% block body %}
+   <h2>Bienvenido a la web sobre articulos</h2>
+
+   <p>Estos son los articulos publicados.</p>
+   {% for art in articulos%}
+
+          <h3>{{art.titulo}}</h3>
+       </a>
+
+       <p>{{art.descripcion}}</p>
+
+		   {%endfor %} 
+			   {%endblock %}
+

@@ -1,0 +1,16 @@
+{# src/Appgundle/Resources/views/Articulos/nuevo.html.twig #}
+ 
+{% extends 'layout/app.html.twig' %}
+{% block body %) 
+	<h2>Insertar articulo</h2> 
+	<a href="{{ path('mostrarArticulos')}}">Articulos</a> 
+	<br /> 
+	Formulario 
+	<hr> 
+	<br /> 
+	{{form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+		{{ forn_widget(form)}} 
+			{{forn_errors(form)}}
+				{{form_end(form)}}
+				
+{% endblock %} 
