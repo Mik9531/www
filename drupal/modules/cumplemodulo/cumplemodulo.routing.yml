@@ -1,0 +1,7 @@
+﻿cumple.content:
+  path: '/cumplemodulo'
+  defaults:
+    _controller: 'Drupal\cumplemodulo\Controller\CumpleController::content'
+    _title: 'Módulo Cumpleaños'
+  requirements:
+    _permission: 'access content'

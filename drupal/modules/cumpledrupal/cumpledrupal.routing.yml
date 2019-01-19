@@ -1,0 +1,7 @@
+cumpledrupal.content:
+  path: '/cumpledrupal'
+  defaults:
+    _controller: 'Drupal\cumpledrupal\Controller\CumpleController::content'
+    _title: 'Cumple'
+  requirements:
+    _permission: 'access content'

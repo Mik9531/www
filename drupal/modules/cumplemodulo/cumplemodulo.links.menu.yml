@@ -1,0 +1,6 @@
+﻿cumplemodulo.admin:
+  title: 'Configuración Modulo Cumpleaños'
+  description: 'Un módulo básico que nos devuelve si es nuestro cumpleaños'
+  parent: system.admin_config_development
+  route_name: cumplemodulo.content
+  weight: 100

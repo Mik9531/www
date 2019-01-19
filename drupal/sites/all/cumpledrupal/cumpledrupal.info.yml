@@ -1,0 +1,6 @@
+name: Cumple
+description: Un módulo que nos dirá si es nuestro cumple
+package: Custom
+type: module
+version: 1.0
+core: 8.x

@@ -1,0 +1,6 @@
+cumpledrupal.admin:
+  title: 'Configuración del cumple'
+  description: 'Un modulo que nos devuelve si es nuestro cumple o no'
+  parent: system.admin_config_development
+  route_name: cumpledrupal.content
+  weight: 100

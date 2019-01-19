@@ -1,0 +1,7 @@
+cumple.content:
+  path: '/cumple'
+  defaults:
+    _controller: 'Drupal\cumple\Controller\CumpleController::content'
+    _title: 'Cumpleaños'
+  requirements:
+    _permission: 'access content'
